@@ -1,5 +1,4 @@
 // FRQ 1a - Write the getScore method //
-
 public int getScore() {
   int score = 0;
   if (levelOne.goalReached()) {
@@ -16,3 +15,9 @@ public int getScore() {
   }
   return score;
 }
+
+// FRQ 1b - Write the playManyTimes method //
+public int playManyTimes(int num) {
+  int highScore = 0;
+  for (int i = 0; i < num; i++) {
+    int temp = 
